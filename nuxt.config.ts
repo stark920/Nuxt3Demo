@@ -5,6 +5,11 @@ import VueI18nVitePlugin from '@intlify/unplugin-vue-i18n/vite';
 // https://v3.nuxtjs.org/api/configuration/nuxt.config
 export default defineNuxtConfig({
   modules: ['@pinia/nuxt', '@nuxt/content'],
+  content: {
+    highlight: {
+      theme: 'dark-plus'
+    }
+  },
   app: {
     head: {
       title: 'Nuxt3 Demo',
